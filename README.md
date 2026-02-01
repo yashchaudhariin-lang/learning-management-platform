@@ -182,6 +182,10 @@ The system is capable of supporting significantly higher traffic without archite
 
 This project uses **Stripe Test Mode**, which allows you to simulate payments without any real money.
 
+### 🔗 Project Links
+- **Main Landing Page:** https://lms-neon-theta.vercel.app/  
+- **Live Demo (Render):** https://lms-n5tn.onrender.com  
+
 ### 🧪 Test Card Details
 Use the following **dummy test card** for all test payments:
 
@@ -194,23 +198,23 @@ Use the following **dummy test card** for all test payments:
 ⚠️ *This is a Stripe test card. No real transactions will occur.*
 
 ### 📝 Steps to Test
-1. Navigate to the checkout/payment page.  
-2. Enter the test card details above.  
-3. Use any valid expiry, CVV, and ZIP value.  
+1. Open the landing page link above.  
+2. Navigate to the checkout/payment screen.  
+3. Enter the test card details provided.  
 4. Click **Pay / Complete Payment**.  
-5. A **success message** will appear (simulated).
+5. A **successful payment confirmation** will appear (simulated).
 
 ### 🔍 What You Can Verify
-- Form validation  
-- Payment flow UX  
-- Success & failure handling  
-- Webhook triggers (if included)  
-- Test-mode order entries  
+- Payment form validation  
+- UX of the checkout flow  
+- Success & error handling  
+- (If implemented) webhook behavior  
+- Test transactions in the system
 
 ### 🛡️ Notes
-- No real banking systems are contacted.  
+- This demo does **not** use real banking systems.  
 - No sensitive data is stored.  
-- You can repeat tests unlimited times.
+- Test payments can be repeated unlimited times.
 
 ## 🚀 Engineering Highlights
 
