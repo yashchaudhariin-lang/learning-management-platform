@@ -162,8 +162,6 @@ The system is capable of supporting significantly higher traffic without archite
 
 # 📸 Product Screens
 
-*(Create `/screenshots` folder before adding these)*
-
 ## Instructor Dashboard
 ![Instructor Dashboard](screenshots/instructor-dashboard.png)
 
