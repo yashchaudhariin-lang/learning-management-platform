@@ -178,6 +178,39 @@ The system is capable of supporting significantly higher traffic without archite
 ![Stripe Payment](screenshots/payment.png)
 
 ---
+## 💳 How to Test Payments (Stripe Test Mode)
+
+This project uses **Stripe Test Mode**, which allows you to simulate payments without any real money.
+
+### 🧪 Test Card Details
+Use the following **dummy test card** for all test payments:
+
+- **Card Number:** 4242 4242 4242 4242  
+- **Expiry Date:** Any future date (e.g., 12/34)  
+- **CVV:** Any 3 digits (e.g., 123)  
+- **Cardholder Name:** Any name  
+- **ZIP / Postal Code:** Any valid format  
+
+⚠️ *This is a Stripe test card. No real transactions will occur.*
+
+### 📝 Steps to Test
+1. Navigate to the checkout/payment page.  
+2. Enter the test card details above.  
+3. Use any valid expiry, CVV, and ZIP value.  
+4. Click **Pay / Complete Payment**.  
+5. A **success message** will appear (simulated).
+
+### 🔍 What You Can Verify
+- Form validation  
+- Payment flow UX  
+- Success & failure handling  
+- Webhook triggers (if included)  
+- Test-mode order entries  
+
+### 🛡️ Notes
+- No real banking systems are contacted.  
+- No sensitive data is stored.  
+- You can repeat tests unlimited times.
 
 ## 🚀 Engineering Highlights
 
