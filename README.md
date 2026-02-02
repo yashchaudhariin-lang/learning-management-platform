@@ -4,6 +4,24 @@
 
 ---
 
+# 📸 Product Screens
+
+## Instructor Dashboard
+![Instructor Dashboard](screenshots/instructor-dashboard.png)
+
+## Course Management
+![Course Management](screenshots/course-management.png)
+
+## Lecture Editor
+![Lecture Editor](screenshots/lecture-editor.png)
+
+## Student Learning View
+![Student View](screenshots/student-view.png)
+
+## Payment Integration
+![Stripe Payment](screenshots/payment.png)
+
+---
 ## 📌 Overview
 
 The Learning Management Platform is a full-stack, production-oriented system designed to support modern digital education workflows — enabling instructors to create and monetize courses while allowing students to securely purchase and consume structured learning content.
@@ -14,6 +32,68 @@ Built with a strong focus on **scalability, security, and real-world SaaS archit
 This public repository showcases system architecture, product capabilities, and engineering design.
 
 ---
+## 💳 How to Test Payments (Stripe Test Mode)
+
+This project uses **Stripe Test Mode**, which allows you to simulate payments without any real money.
+
+### 🔗 Project Links
+- **Main Landing Page:** https://lms-neon-theta.vercel.app/  
+- **Live Demo (Render):** https://lms-n5tn.onrender.com  
+
+### 🧪 Test Card Details
+Use the following **dummy test card** for all test payments:
+
+- **Card Number:** 4242 4242 4242 4242  
+- **Expiry Date:** Any future date (e.g., 12/34)  
+- **CVV:** Any 3 digits (e.g., 123)  
+- **Cardholder Name:** Any name  
+- **ZIP / Postal Code:** Any valid format  
+
+⚠️ *This is a Stripe test card. No real transactions will occur.*
+
+### 📝 Steps to Test
+1. Open the landing page link above.  
+2. Navigate to the checkout/payment screen.  
+3. Enter the test card details provided.  
+4. Click **Pay / Complete Payment**.  
+5. A **successful payment confirmation** will appear (simulated).
+
+### 🔍 What You Can Verify
+- Payment form validation  
+- UX of the checkout flow  
+- Success & error handling  
+- (If implemented) webhook behavior  
+- Test transactions in the system
+
+### 🛡️ Notes
+- This demo does **not** use real banking systems.  
+- No sensitive data is stored.  
+- Test payments can be repeated unlimited times.
+
+## 🚀 Engineering Highlights
+
+✅ Built and deployed a functional MVP in **12 days**  
+✅ Implemented full payment lifecycle  
+✅ Designed instructor-grade admin tooling  
+✅ Architected secure authentication  
+✅ Integrated cloud media pipeline  
+✅ Delivered production-ready infrastructure  
+
+---
+
+## 📈 What This Project Demonstrates
+
+This system reflects strong capability in:
+
+- Full-stack architecture  
+- SaaS product thinking  
+- Secure backend engineering  
+- Payment workflows  
+- Media-heavy application design  
+- Dashboard systems  
+- Rapid product execution  
+
+It showcases the ability to **design, build, and launch complex platforms independently.**
 
 ## ⭐ Why This Project Stands Out
 
@@ -159,87 +239,6 @@ Heavy media is offloaded to Cloudinary to avoid server strain.
 The system is capable of supporting significantly higher traffic without architectural redesign.
 
 ---
-
-# 📸 Product Screens
-
-## Instructor Dashboard
-![Instructor Dashboard](screenshots/instructor-dashboard.png)
-
-## Course Management
-![Course Management](screenshots/course-management.png)
-
-## Lecture Editor
-![Lecture Editor](screenshots/lecture-editor.png)
-
-## Student Learning View
-![Student View](screenshots/student-view.png)
-
-## Payment Integration
-![Stripe Payment](screenshots/payment.png)
-
----
-## 💳 How to Test Payments (Stripe Test Mode)
-
-This project uses **Stripe Test Mode**, which allows you to simulate payments without any real money.
-
-### 🔗 Project Links
-- **Main Landing Page:** https://lms-neon-theta.vercel.app/  
-- **Live Demo (Render):** https://lms-n5tn.onrender.com  
-
-### 🧪 Test Card Details
-Use the following **dummy test card** for all test payments:
-
-- **Card Number:** 4242 4242 4242 4242  
-- **Expiry Date:** Any future date (e.g., 12/34)  
-- **CVV:** Any 3 digits (e.g., 123)  
-- **Cardholder Name:** Any name  
-- **ZIP / Postal Code:** Any valid format  
-
-⚠️ *This is a Stripe test card. No real transactions will occur.*
-
-### 📝 Steps to Test
-1. Open the landing page link above.  
-2. Navigate to the checkout/payment screen.  
-3. Enter the test card details provided.  
-4. Click **Pay / Complete Payment**.  
-5. A **successful payment confirmation** will appear (simulated).
-
-### 🔍 What You Can Verify
-- Payment form validation  
-- UX of the checkout flow  
-- Success & error handling  
-- (If implemented) webhook behavior  
-- Test transactions in the system
-
-### 🛡️ Notes
-- This demo does **not** use real banking systems.  
-- No sensitive data is stored.  
-- Test payments can be repeated unlimited times.
-
-## 🚀 Engineering Highlights
-
-✅ Built and deployed a functional MVP in **12 days**  
-✅ Implemented full payment lifecycle  
-✅ Designed instructor-grade admin tooling  
-✅ Architected secure authentication  
-✅ Integrated cloud media pipeline  
-✅ Delivered production-ready infrastructure  
-
----
-
-## 📈 What This Project Demonstrates
-
-This system reflects strong capability in:
-
-- Full-stack architecture  
-- SaaS product thinking  
-- Secure backend engineering  
-- Payment workflows  
-- Media-heavy application design  
-- Dashboard systems  
-- Rapid product execution  
-
-It showcases the ability to **design, build, and launch complex platforms independently.**
 
 ---
 
