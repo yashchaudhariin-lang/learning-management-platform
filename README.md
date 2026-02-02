@@ -62,7 +62,7 @@ Use the following **dummy test card** for all test payments:
 - Payment form validation  
 - UX of the checkout flow  
 - Success & error handling  
-- (If implemented) webhook behavior  
+- webhook behavior  
 - Test transactions in the system
 
 ### 🛡️ Notes
