@@ -39,6 +39,10 @@ This project uses **Stripe Test Mode**, which allows you to simulate payments wi
 ### 🔗 Project Links
 - **Main Landing Page:** https://lms-neon-theta.vercel.app/  
 
+# 🚀 **KAFKA IMPLEMENTATION?**
+
+check this out: [https://github.com/yashchaudhariin-lang/learning-management-platform](https://github.com/yashchaudhariin-lang/lms-Learning-Management-Platform-Java-kafka-showcase)
+
 ### 🧪 Test Card Details
 Use the following **dummy test card** for all test payments:
 
