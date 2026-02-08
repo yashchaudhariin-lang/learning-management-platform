@@ -38,7 +38,6 @@ This project uses **Stripe Test Mode**, which allows you to simulate payments wi
 
 ### 🔗 Project Links
 - **Main Landing Page:** https://lms-neon-theta.vercel.app/  
-- **Live Demo (Render):** https://lms-n5tn.onrender.com  
 
 ### 🧪 Test Card Details
 Use the following **dummy test card** for all test payments:
